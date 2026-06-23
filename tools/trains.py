@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from tools.bookings import create_booking
 
 DATA_FILE = Path(__file__).parent.parent / "data" / "trains.json"
 
@@ -18,26 +19,37 @@ def load_trains():
         return []
 
 
-def search_trains(source: str, destination: str):
+def search_trains(
+    source: str,
+    destination: str,
+    date: str = None
+):
     trains = load_trains()
 
     results = []
 
     for train in trains:
-        if (
+
+        source_match = (
             train["source"].lower() == source.lower()
-            and train["destination"].lower() == destination.lower()
-        ):
+        )
+
+        destination_match = (
+            train["destination"].lower() == destination.lower()
+        )
+
+        date_match = (
+            date is None
+            or train["date"] == date
+        )
+
+        if source_match and destination_match and date_match:
             results.append(train)
 
     return results
 
 
 def get_train_info(train_no: str):
-    """
-    Get train information using train number.
-    """
-
     trains = load_trains()
 
     for train in trains:
@@ -48,10 +60,6 @@ def get_train_info(train_no: str):
 
 
 def check_seat_availability(train_no: str):
-    """
-    Check available seats for a train.
-    """
-
     train = get_train_info(train_no)
 
     if train:
@@ -65,10 +73,6 @@ def check_seat_availability(train_no: str):
 
 
 def get_train_schedule(train_no: str):
-    """
-    Get departure and arrival schedule.
-    """
-
     train = get_train_info(train_no)
 
     if train:
@@ -82,18 +86,23 @@ def get_train_schedule(train_no: str):
     return None
 
 
-def route_lookup(source: str, destination: str):
-    """
-    Find route between source and destination.
-    """
-
-    trains = search_trains(source, destination)
+def route_lookup(
+    source: str,
+    destination: str,
+    date: str = None
+):
+    trains = search_trains(
+        source,
+        destination,
+        date
+    )
 
     routes = []
 
     for train in trains:
         routes.append(
             {
+                "date": train["date"],
                 "train_no": train["train_no"],
                 "train_name": train["train_name"],
                 "route": f"{train['source']} → {train['destination']}"
@@ -101,3 +110,27 @@ def route_lookup(source: str, destination: str):
         )
 
     return routes
+
+
+def book_train(
+    train_no: str,
+    passenger_name: str
+):
+    train = get_train_info(train_no)
+
+    if not train:
+        return {
+            "status": "FAILED",
+            "message": "Train not found"
+        }
+
+    if train["available_seats"] <= 0:
+        return {
+            "status": "FAILED",
+            "message": "No seats available"
+        }
+
+    return create_booking(
+        train_no,
+        passenger_name
+    )

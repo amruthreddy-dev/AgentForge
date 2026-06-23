@@ -1,6 +1,6 @@
-
 [
   {
+    "date": "2026-06-23",
     "train_no": "12627",
     "train_name": "Karnataka Express",
     "source": "Bangalore",
@@ -10,6 +10,7 @@
     "available_seats": 154
   },
   {
+    "date": "2026-06-23",
     "train_no": "12723",
     "train_name": "Telangana Express",
     "source": "Hyderabad",
@@ -19,6 +20,7 @@
     "available_seats": 89
   },
   {
+    "date": "2026-06-23",
     "train_no": "12621",
     "train_name": "Tamil Nadu Express",
     "source": "Chennai",
@@ -28,15 +30,17 @@
     "available_seats": 201
   },
   {
+    "date": "2026-06-23",
     "train_no": "12951",
     "train_name": "Mumbai Rajdhani Express",
     "source": "Mumbai",
     "destination": "Delhi",
     "departure": "17:00",
     "arrival": "08:35",
-    "available_seats": 67
+    "available_seats": 12
   },
   {
+    "date": "2026-06-23",
     "train_no": "12301",
     "train_name": "Howrah Rajdhani Express",
     "source": "Kolkata",
@@ -46,87 +50,37 @@
     "available_seats": 142
   },
   {
-    "train_no": "12137",
-    "train_name": "Punjab Mail",
-    "source": "Mumbai",
-    "destination": "Delhi",
-    "departure": "19:35",
-    "arrival": "08:45",
-    "available_seats": 175
-  },
-  {
-    "train_no": "12295",
-    "train_name": "Sanghamitra Express",
+    "date": "2026-06-24",
+    "train_no": "12627",
+    "train_name": "Karnataka Express",
     "source": "Bangalore",
-    "destination": "Patna",
-    "departure": "09:00",
-    "arrival": "13:20",
-    "available_seats": 92
-  },
-  {
-    "train_no": "12704",
-    "train_name": "Falaknuma Express",
-    "source": "Hyderabad",
-    "destination": "Howrah",
-    "departure": "15:55",
-    "arrival": "18:10",
-    "available_seats": 223
-  },
-  {
-    "train_no": "12840",
-    "train_name": "Chennai Mail",
-    "source": "Chennai",
-    "destination": "Mumbai",
-    "departure": "22:30",
-    "arrival": "23:15",
-    "available_seats": 118
-  },
-  {
-    "train_no": "12841",
-    "train_name": "Coromandel Express",
-    "source": "Chennai",
-    "destination": "Kolkata",
-    "departure": "07:00",
-    "arrival": "10:40",
-    "available_seats": 74
-  },
-  {
-    "train_no": "12839",
-    "train_name": "Howrah Mail",
-    "source": "Kolkata",
-    "destination": "Chennai",
-    "departure": "23:55",
-    "arrival": "03:30",
-    "available_seats": 163
-  },
-  {
-    "train_no": "12002",
-    "train_name": "Shatabdi Express",
-    "source": "Delhi",
-    "destination": "Bhopal",
-    "departure": "06:00",
-    "arrival": "14:25",
-    "available_seats": 285
-  },
-  {
-    "train_no": "12213",
-    "train_name": "Duronto Express",
-    "source": "Delhi",
-    "destination": "Pune",
-    "departure": "11:25",
-    "arrival": "07:35",
-    "available_seats": 44
-  },
-  {
-    "train_no": "12297",
-    "train_name": "Pune Duronto Express",
-    "source": "Pune",
     "destination": "Delhi",
-    "departure": "15:15",
-    "arrival": "10:10",
-    "available_seats": 121
+    "departure": "19:20",
+    "arrival": "09:00",
+    "available_seats": 148
   },
   {
+    "date": "2026-06-24",
+    "train_no": "12723",
+    "train_name": "Telangana Express",
+    "source": "Hyderabad",
+    "destination": "Delhi",
+    "departure": "06:00",
+    "arrival": "07:40",
+    "available_seats": 77
+  },
+  {
+    "date": "2026-06-24",
+    "train_no": "12621",
+    "train_name": "Tamil Nadu Express",
+    "source": "Chennai",
+    "destination": "Delhi",
+    "departure": "22:00",
+    "arrival": "07:05",
+    "available_seats": 194
+  },
+  {
+    "date": "2026-06-24",
     "train_no": "12957",
     "train_name": "Swarna Jayanti Rajdhani",
     "source": "Ahmedabad",
@@ -136,51 +90,7 @@
     "available_seats": 96
   },
   {
-    "train_no": "12718",
-    "train_name": "Ratnachal Express",
-    "source": "Vijayawada",
-    "destination": "Visakhapatnam",
-    "departure": "06:15",
-    "arrival": "12:40",
-    "available_seats": 188
-  },
-  {
-    "train_no": "12805",
-    "train_name": "Janmabhoomi Express",
-    "source": "Visakhapatnam",
-    "destination": "Vijayawada",
-    "departure": "06:20",
-    "arrival": "13:10",
-    "available_seats": 135
-  },
-  {
-    "train_no": "17201",
-    "train_name": "Golconda Express",
-    "source": "Hyderabad",
-    "destination": "Vijayawada",
-    "departure": "05:10",
-    "arrival": "11:50",
-    "available_seats": 214
-  },
-  {
-    "train_no": "12711",
-    "train_name": "Pinakini Express",
-    "source": "Vijayawada",
-    "destination": "Chennai",
-    "departure": "06:30",
-    "arrival": "13:30",
-    "available_seats": 157
-  },
-  {
-    "train_no": "12861",
-    "train_name": "East Coast Express",
-    "source": "Visakhapatnam",
-    "destination": "Hyderabad",
-    "departure": "18:45",
-    "arrival": "07:00",
-    "available_seats": 82
-  },
-  {
+    "date": "2026-06-24",
     "train_no": "12123",
     "train_name": "Deccan Queen",
     "source": "Mumbai",
@@ -190,132 +100,47 @@
     "available_seats": 250
   },
   {
-    "train_no": "12124",
-    "train_name": "Pragati Express",
-    "source": "Pune",
-    "destination": "Mumbai",
-    "departure": "07:50",
-    "arrival": "11:05",
-    "available_seats": 133
-  },
-  {
-    "train_no": "12931",
-    "train_name": "Ahmedabad Double Decker",
-    "source": "Ahmedabad",
-    "destination": "Mumbai",
-    "departure": "06:00",
-    "arrival": "13:10",
-    "available_seats": 167
-  },
-  {
-    "train_no": "12932",
-    "train_name": "Mumbai Double Decker",
-    "source": "Mumbai",
-    "destination": "Ahmedabad",
-    "departure": "14:30",
-    "arrival": "21:35",
-    "available_seats": 91
-  },
-  {
-    "train_no": "12245",
-    "train_name": "Duronto Kolkata",
-    "source": "Kolkata",
-    "destination": "Mumbai",
-    "departure": "08:30",
-    "arrival": "11:45",
-    "available_seats": 178
-  },
-  {
-    "train_no": "12246",
-    "train_name": "Duronto Mumbai",
-    "source": "Mumbai",
-    "destination": "Kolkata",
-    "departure": "11:05",
-    "arrival": "14:20",
-    "available_seats": 58
-  },
-  {
-    "train_no": "12649",
-    "train_name": "Sampark Kranti Express",
-    "source": "Bangalore",
-    "destination": "Delhi",
-    "departure": "13:50",
-    "arrival": "06:20",
-    "available_seats": 109
-  },
-  {
-    "train_no": "12650",
-    "train_name": "Yeshwantpur Express",
-    "source": "Delhi",
-    "destination": "Bangalore",
-    "departure": "20:15",
-    "arrival": "12:40",
-    "available_seats": 71
-  },
-  {
-    "train_no": "12727",
-    "train_name": "Godavari Express",
+    "date": "2026-06-25",
+    "train_no": "17201",
+    "train_name": "Golconda Express",
     "source": "Hyderabad",
-    "destination": "Visakhapatnam",
-    "departure": "17:15",
-    "arrival": "05:30",
-    "available_seats": 239
+    "destination": "Vijayawada",
+    "departure": "05:10",
+    "arrival": "11:50",
+    "available_seats": 214
   },
   {
-    "train_no": "12728",
-    "train_name": "Godavari Return Express",
-    "source": "Visakhapatnam",
-    "destination": "Hyderabad",
-    "departure": "17:45",
-    "arrival": "06:10",
-    "available_seats": 112
-  },
-  {
-    "train_no": "12830",
-    "train_name": "Bhubaneswar Express",
-    "source": "Visakhapatnam",
-    "destination": "Kolkata",
-    "departure": "20:10",
-    "arrival": "08:30",
-    "available_seats": 196
-  },
-  {
-    "train_no": "12831",
-    "train_name": "Howrah Superfast",
-    "source": "Kolkata",
-    "destination": "Visakhapatnam",
-    "departure": "15:20",
-    "arrival": "03:50",
-    "available_seats": 143
-  },
-  {
-    "train_no": "12603",
-    "train_name": "Hyderabad Express",
-    "source": "Chennai",
-    "destination": "Hyderabad",
-    "departure": "18:25",
-    "arrival": "08:15",
-    "available_seats": 87
-  },
-  {
-    "train_no": "12604",
-    "train_name": "Chennai Express",
-    "source": "Hyderabad",
+    "date": "2026-06-25",
+    "train_no": "12711",
+    "train_name": "Pinakini Express",
+    "source": "Vijayawada",
     "destination": "Chennai",
-    "departure": "18:05",
-    "arrival": "07:45",
-    "available_seats": 176
+    "departure": "06:30",
+    "arrival": "13:30",
+    "available_seats": 157
   },
   {
-    "train_no": "12163",
-    "train_name": "Superfast Pune Express",
-    "source": "Pune",
-    "destination": "Bangalore",
-    "departure": "22:10",
-    "arrival": "15:20",
-    "available_seats": 149
+    "date": "2026-06-25",
+    "train_no": "12805",
+    "train_name": "Janmabhoomi Express",
+    "source": "Visakhapatnam",
+    "destination": "Vijayawada",
+    "departure": "06:20",
+    "arrival": "13:10",
+    "available_seats": 135
   },
   {
+    "date": "2026-06-25",
+    "train_no": "12841",
+    "train_name": "Coromandel Express",
+    "source": "Chennai",
+    "destination": "Kolkata",
+    "departure": "07:00",
+    "arrival": "10:40",
+    "available_seats": 18
+  },
+  {
+    "date": "2026-06-25",
     "train_no": "12164",
     "train_name": "Udyan Express",
     "source": "Bangalore",
@@ -325,60 +150,57 @@
     "available_seats": 55
   },
   {
-    "train_no": "12915",
-    "train_name": "Ashram Express",
-    "source": "Ahmedabad",
-    "destination": "Delhi",
-    "departure": "18:30",
-    "arrival": "10:20",
-    "available_seats": 207
+    "date": "2026-06-26",
+    "train_no": "12727",
+    "train_name": "Godavari Express",
+    "source": "Hyderabad",
+    "destination": "Visakhapatnam",
+    "departure": "17:15",
+    "arrival": "05:30",
+    "available_seats": 239
   },
   {
-    "train_no": "12916",
-    "train_name": "Ashram Return Express",
-    "source": "Delhi",
-    "destination": "Ahmedabad",
-    "departure": "15:20",
-    "arrival": "07:15",
-    "available_seats": 93
+    "date": "2026-06-26",
+    "train_no": "12728",
+    "train_name": "Godavari Return Express",
+    "source": "Visakhapatnam",
+    "destination": "Hyderabad",
+    "departure": "17:45",
+    "arrival": "06:10",
+    "available_seats": 112
   },
   {
+    "date": "2026-06-26",
     "train_no": "12269",
     "train_name": "Chennai Duronto",
     "source": "Chennai",
     "destination": "Delhi",
     "departure": "06:40",
     "arrival": "10:15",
-    "available_seats": 38
+    "available_seats": 9
   },
   {
-    "train_no": "12270",
-    "train_name": "Delhi Duronto",
+    "date": "2026-06-26",
+    "train_no": "12213",
+    "train_name": "Duronto Express",
     "source": "Delhi",
-    "destination": "Chennai",
-    "departure": "15:55",
-    "arrival": "19:35",
-    "available_seats": 119
+    "destination": "Pune",
+    "departure": "11:25",
+    "arrival": "07:35",
+    "available_seats": 44
   },
   {
-    "train_no": "12759",
-    "train_name": "Charminar Express",
-    "source": "Hyderabad",
-    "destination": "Chennai",
-    "departure": "18:30",
-    "arrival": "08:00",
-    "available_seats": 181
+    "date": "2026-06-26",
+    "train_no": "12931",
+    "train_name": "Ahmedabad Double Decker",
+    "source": "Ahmedabad",
+    "destination": "Mumbai",
+    "departure": "06:00",
+    "arrival": "13:10",
+    "available_seats": 167
   },
   {
-    "train_no": "12760",
-    "train_name": "Charminar Return Express",
-    "source": "Chennai",
-    "destination": "Hyderabad",
-    "departure": "18:10",
-    "arrival": "07:40",
-    "available_seats": 124
-  },
-  {
+    "date": "2026-06-27",
     "train_no": "12859",
     "train_name": "Gitanjali Express",
     "source": "Mumbai",
@@ -388,6 +210,7 @@
     "available_seats": 145
   },
   {
+    "date": "2026-06-27",
     "train_no": "12860",
     "train_name": "Gitanjali Return Express",
     "source": "Kolkata",
@@ -397,42 +220,27 @@
     "available_seats": 79
   },
   {
-    "train_no": "12025",
-    "train_name": "Shatabdi Ahmedabad",
-    "source": "Ahmedabad",
-    "destination": "Mumbai",
-    "departure": "06:10",
-    "arrival": "12:45",
-    "available_seats": 266
-  },
-  {
-    "train_no": "12026",
-    "train_name": "Shatabdi Mumbai",
-    "source": "Mumbai",
-    "destination": "Ahmedabad",
-    "departure": "15:30",
-    "arrival": "22:05",
-    "available_seats": 153
-  },
-  {
-    "train_no": "12783",
-    "train_name": "Secunderabad Express",
+    "date": "2026-06-27",
+    "train_no": "12759",
+    "train_name": "Charminar Express",
     "source": "Hyderabad",
-    "destination": "Pune",
-    "departure": "20:35",
-    "arrival": "09:25",
-    "available_seats": 116
+    "destination": "Chennai",
+    "departure": "18:30",
+    "arrival": "08:00",
+    "available_seats": 181
   },
   {
-    "train_no": "12784",
-    "train_name": "Pune Express",
-    "source": "Pune",
+    "date": "2026-06-27",
+    "train_no": "12760",
+    "train_name": "Charminar Return Express",
+    "source": "Chennai",
     "destination": "Hyderabad",
-    "departure": "21:15",
-    "arrival": "10:05",
-    "available_seats": 184
+    "departure": "18:10",
+    "arrival": "07:40",
+    "available_seats": 124
   },
   {
+    "date": "2026-06-27",
     "train_no": "12889",
     "train_name": "Visakha Express",
     "source": "Visakhapatnam",
@@ -441,23 +249,158 @@
     "arrival": "07:20",
     "available_seats": 102
   },
+
   {
-    "train_no": "12890",
-    "train_name": "Visakha Return Express",
-    "source": "Delhi",
-    "destination": "Visakhapatnam",
-    "departure": "17:45",
-    "arrival": "08:30",
-    "available_seats": 61
+    "date": "2026-06-28",
+    "train_no": "12627",
+    "train_name": "Karnataka Express",
+    "source": "Bangalore",
+    "destination": "Delhi",
+    "departure": "19:20",
+    "arrival": "09:00",
+    "available_seats": 132
   },
   {
-    "train_no": "17255",
-    "train_name": "Andhra Pradesh Express",
-    "source": "Vijayawada",
+    "date": "2026-06-28",
+    "train_no": "12723",
+    "train_name": "Telangana Express",
+    "source": "Hyderabad",
     "destination": "Delhi",
-    "departure": "07:20",
-    "arrival": "11:15",
-    "available_seats": 227
-  }
-]
+    "departure": "06:00",
+    "arrival": "07:40",
+    "available_seats": 15
+  },
+  {
+    "date": "2026-06-28",
+    "train_no": "12621",
+    "train_name": "Tamil Nadu Express",
+    "source": "Chennai",
+    "destination": "Delhi",
+    "departure": "22:00",
+    "arrival": "07:05",
+    "available_seats": 210
+  },
+  {
+    "date": "2026-06-28",
+    "train_no": "12301",
+    "train_name": "Howrah Rajdhani Express",
+    "source": "Kolkata",
+    "destination": "Delhi",
+    "departure": "16:50",
+    "arrival": "10:10",
+    "available_seats": 171
+  },
+  {
+    "date": "2026-06-28",
+    "train_no": "12957",
+    "train_name": "Swarna Jayanti Rajdhani",
+    "source": "Ahmedabad",
+    "destination": "Delhi",
+    "departure": "17:40",
+    "arrival": "07:30",
+    "available_seats": 104
+  },
 
+  {
+    "date": "2026-06-29",
+    "train_no": "12123",
+    "train_name": "Deccan Queen",
+    "source": "Mumbai",
+    "destination": "Pune",
+    "departure": "17:10",
+    "arrival": "20:25",
+    "available_seats": 241
+  },
+  {
+    "date": "2026-06-29",
+    "train_no": "12124",
+    "train_name": "Pragati Express",
+    "source": "Pune",
+    "destination": "Mumbai",
+    "departure": "07:50",
+    "arrival": "11:05",
+    "available_seats": 133
+  },
+  {
+    "date": "2026-06-29",
+    "train_no": "17201",
+    "train_name": "Golconda Express",
+    "source": "Hyderabad",
+    "destination": "Vijayawada",
+    "departure": "05:10",
+    "arrival": "11:50",
+    "available_seats": 198
+  },
+  {
+    "date": "2026-06-29",
+    "train_no": "12805",
+    "train_name": "Janmabhoomi Express",
+    "source": "Visakhapatnam",
+    "destination": "Vijayawada",
+    "departure": "06:20",
+    "arrival": "13:10",
+    "available_seats": 11
+  },
+  {
+    "date": "2026-06-29",
+    "train_no": "12841",
+    "train_name": "Coromandel Express",
+    "source": "Chennai",
+    "destination": "Kolkata",
+    "departure": "07:00",
+    "arrival": "10:40",
+    "available_seats": 63
+  },
+
+  {
+    "date": "2026-06-30",
+    "train_no": "12727",
+    "train_name": "Godavari Express",
+    "source": "Hyderabad",
+    "destination": "Visakhapatnam",
+    "departure": "17:15",
+    "arrival": "05:30",
+    "available_seats": 224
+  },
+  {
+    "date": "2026-06-30",
+    "train_no": "12728",
+    "train_name": "Godavari Return Express",
+    "source": "Visakhapatnam",
+    "destination": "Hyderabad",
+    "departure": "17:45",
+    "arrival": "06:10",
+    "available_seats": 120
+  },
+  {
+    "date": "2026-06-30",
+    "train_no": "12269",
+    "train_name": "Chennai Duronto",
+    "source": "Chennai",
+    "destination": "Delhi",
+    "departure": "06:40",
+    "arrival": "10:15",
+    "available_seats": 6
+  },
+  {
+    "date": "2026-06-30",
+    "train_no": "12931",
+    "train_name": "Ahmedabad Double Decker",
+    "source": "Ahmedabad",
+    "destination": "Mumbai",
+    "departure": "06:00",
+    "arrival": "13:10",
+    "available_seats": 155
+  },
+  {
+    "date": "2026-06-30",
+    "train_no": "12859",
+    "train_name": "Gitanjali Express",
+    "source": "Mumbai",
+    "destination": "Kolkata",
+    "departure": "06:00",
+    "arrival": "12:25",
+    "available_seats": 137
+  }
+
+]
